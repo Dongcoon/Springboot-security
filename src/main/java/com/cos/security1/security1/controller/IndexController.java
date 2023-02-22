@@ -59,8 +59,9 @@ public class IndexController {
         return "index"; // src/main/resouces/templates/index.mustache
     }
     @GetMapping("/user")
-    public @ResponseBody String user(){
-        return "user" ;
+    public @ResponseBody String user(@AuthenticationPrincipal PrincipalDetails principalDetails){
+        System.out.println("pricipalDetails:" + principalDetails.getUser());
+        return "user";
     }
 
     @GetMapping("/admin")
