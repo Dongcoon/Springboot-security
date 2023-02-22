@@ -1,4 +1,4 @@
-package com.cos.security1.security1.auth;
+package com.cos.security1.security1.config.auth;
 
 
 // 시큐리티가 /login 주소 요청이 오면 낚아채서 로그인을 진행시킨다.
