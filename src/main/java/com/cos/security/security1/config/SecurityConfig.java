@@ -1,6 +1,6 @@
-package com.cos.security1.security1.config;
+package com.cos.security.security1.config;
 
-import com.cos.security1.security1.config.oauth.PricipalOauth2UserService;
+import com.cos.security.security1.config.oauth.PricipalOauth2UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

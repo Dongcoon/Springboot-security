@@ -1,4 +1,4 @@
-package com.cos.security1.security1.config.auth;
+package com.cos.security.security1.config.auth;
 
 
 // 시큐리티가 /login 주소 요청이 오면 낚아채서 로그인을 진행시킨다.
@@ -7,7 +7,7 @@ package com.cos.security1.security1.config.auth;
 // Authentication 안에 User정보가 있어야 됨.
 // User 오브젝트타입 => UserDetails 타입 객체
 
-import com.cos.security1.security1.model.User;
+import com.cos.security.security1.model.User;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

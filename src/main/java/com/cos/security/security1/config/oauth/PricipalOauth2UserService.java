@@ -1,14 +1,13 @@
-package com.cos.security1.security1.config.oauth;
+package com.cos.security.security1.config.oauth;
 
-import com.cos.security1.security1.config.auth.PrincipalDetails;
-import com.cos.security1.security1.config.auth.provider.FacebookUserInfo;
-import com.cos.security1.security1.config.auth.provider.GoogleUserInfo;
-import com.cos.security1.security1.config.auth.provider.NaverUserInfo;
-import com.cos.security1.security1.config.auth.provider.OAuth2UserInfo;
-import com.cos.security1.security1.model.User;
-import com.cos.security1.security1.repository.UserRepository;
+import com.cos.security.security1.config.auth.PrincipalDetails;
+import com.cos.security.security1.config.auth.provider.FacebookUserInfo;
+import com.cos.security.security1.config.auth.provider.GoogleUserInfo;
+import com.cos.security.security1.config.auth.provider.NaverUserInfo;
+import com.cos.security.security1.config.auth.provider.OAuth2UserInfo;
+import com.cos.security.security1.model.User;
+import com.cos.security.security1.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
 import org.springframework.security.oauth2.client.userinfo.OAuth2UserRequest;
 import org.springframework.security.oauth2.core.OAuth2AuthenticationException;

@@ -1,14 +1,13 @@
-package com.cos.security1.security1.controller;
+package com.cos.security.security1.controller;
 
-import com.cos.security1.security1.config.auth.PrincipalDetails;
-import com.cos.security1.security1.model.User;
-import com.cos.security1.security1.repository.UserRepository;
+import com.cos.security.security1.config.auth.PrincipalDetails;
+import com.cos.security.security1.model.User;
+import com.cos.security.security1.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Controller;
